@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 from data import games
 
-attendate - games.loc[(games['type'] == 'info') &
+attendance = games.loc[(games['type'] == 'info') &
 (games['multi2'] == 'attendance'), ['year', 'multi3']]
 attendance.columns = ['year', 'attendance']
 
